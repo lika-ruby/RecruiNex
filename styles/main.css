@@ -1,0 +1,54 @@
+*:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 344px) {
+  .container {
+    width: 344px;
+  }
+}
+@media screen and (min-width: 696px) {
+  .container {
+    width: 696px;
+  }
+}
+@media screen and (min-width: 1312px) {
+  .container {
+    width: 1312px;
+  }
+}/*# sourceMappingURL=main.css.map */

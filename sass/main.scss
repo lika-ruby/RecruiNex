@@ -1,0 +1,22 @@
+@import "./utiles/vars";
+@import "./utiles/keyframes";
+@import "./utiles/placeholders.scss";
+@import "./utiles/mixins.scss";
+
+@import "./base/reset";
+@import "./base/common";
+@import "./base/container";
+
+@import "./components/scroll-to-top";
+
+@import "./sections/header";
+@import "./sections/hero";
+@import "./sections/about";
+@import "./sections/services";
+@import "./sections/market";
+@import "./sections/consultation";
+@import "./sections/clients";
+@import "./sections/employees";
+@import "./sections/candidates";
+@import "./sections/problems";
+@import "./sections/footer";
