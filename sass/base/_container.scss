@@ -1,15 +1,17 @@
 .container {
     width: 100%;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 10px;
     // outline: red dashed;
 
     @media screen and (min-width: 344px) {
+        padding: 0 10px;
         width: 344px;
     }
 
     @media screen and (min-width: 696px) {
         width: 696px;
+        padding: 0 15px;
     }
 
     @media screen and (min-width: 1312px) {

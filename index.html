@@ -20,16 +20,85 @@
     <link rel="stylesheet" href="./styles/main.min.css" />
   </head>
   <body>
-    <header class="header"></header>
-    <section class="hero"></section>
-    <section class="about"></section>
-    <section class="services"></section>
-    <section class="market"></section>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <a href="" class="header__logo">RecruiNex</a>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="about" class="header__link">About us</a>
+              </li>
+              <li class="header__item">
+                <a href="services" class="header__link">Services</a>
+              </li>
+              <li class="header__item">
+                <a href="market" class="header__link">Market expertise </a>
+              </li>
+              <li class="header__item">
+                <a href="clients" class="header__link">Clients</a>
+              </li>
+              <li class="header__item">
+                <a href="footer" class="header__link">Contacts</a>
+              </li>
+            </ul>
+            <button class="header__btn">
+              <svg class="header__burger" width="32" height="24">
+                <use href="./images/icons.svg#burger"></use>
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__padding"></div>
+        <div class="hero__container">
+          <div class="hero__text-cont">
+            <h1 class="hero__title">Find&Hire Experts for any job</h1>
+            <p class="hero__text">We help talents meets opportunity and grow</p>
+            <button class="hero__btn">Contact us</button>
+          </div>
+          <picture>
+            <source
+              srcset="
+                ./images/desktop/hero/hero-photo@1x-desktop.webp 1x,
+                ./images/desktop/hero/hero-photo@2x-desktop.webp 2x
+              "
+              media="(min-width: 1312px)"
+            />
+            <source
+              srcset="
+                ./images/tablet/hero/hero-photo@1x-tablet.webp 1x,
+                ./images/tablet/hero/hero-photo@2x-tablet.webp 2x
+              "
+              media="(min-width: 696px)"
+            />
+            <source
+              srcset="
+                ./images/mobile/hero/hero-photo@1x-mobile.webp 1x,
+                ./images/mobile/hero/hero-photo@2x-mobile.webp 2x
+              "
+              media="(max-width: 698px)"
+            />
+            <img
+              class="hero__photo"
+              alt="Чоловік з бородою з каштановим волоссям в окулярах в бордовій сорочці"
+              src="./images/mobile/hero/hero-photo@1x-mobile.webp 1x"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about"></section>
+    <section class="services" id="services"></section>
+    <section class="market" id="market"></section>
     <section class="consultation"></section>
-    <section class="clients"></section>
+    <section class="clients" id="clients"></section>
     <section class="employees"></section>
     <section class="candidates"></section>
     <section class="problems"></section>
-    <footer class="footer"></footer>
+    <footer class="footer" id="footer"></footer>
   </body>
 </html>

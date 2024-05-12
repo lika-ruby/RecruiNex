@@ -1,0 +1,67 @@
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 8px 0 6px;
+    background-color: $accent-color;
+    border-radius: 0 0 20px 20px;
+
+    @media screen and (min-width: 696px) {
+        padding: 2px 0;
+    }
+
+    @media screen and (min-width: 1312px) {
+        padding: 9px 0 13px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 2.5;
+        color: $additinal-color;
+
+        @media screen and (min-width: 696px) {
+            font-size: 26px;
+            line-height: 2.3;
+        }
+
+        @media screen and (min-width: 1312px) {
+            font-size: 30px;
+            line-height: 2;
+        }
+    }
+
+    &__list {
+        display: none;
+
+        @media screen and (min-width: 1312px) {
+            display: flex;
+            gap: 50px;
+        }
+    }
+
+    &__link {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 2.5;
+        color: $additinal-color;
+    }
+
+    &__btn {
+        background-color: transparent;
+        padding: 0;
+
+        @media screen and (min-width: 1312px) {
+            display: none;
+        }
+    }
+
+    &__burger {
+        fill: $additinal-color;
+    }
+}

@@ -1,0 +1,14 @@
+*::selection {
+    background-color: $hover-color;
+    color: $additinal-color;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins;
+    position: relative;
+    background-color: $background-color;
+}
