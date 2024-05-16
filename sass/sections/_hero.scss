@@ -109,5 +109,14 @@
             line-height: 2;
             padding: 0 54px;
         }
+
+        &:hover,
+        &:focus {
+            background-color: $hover-color;
+        }
+    }
+
+    &__photo {
+        border-radius: 50px;
     }
 }

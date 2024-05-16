@@ -1,3 +1,7 @@
+* {
+    transition: all 500ms;
+}
+
 *::selection {
     background-color: $hover-color;
     color: $additinal-color;
